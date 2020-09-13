@@ -26,22 +26,22 @@ int main(void)
                 printf("#");
                 count2--;
             }
-            //printing a separator - 2 spaces
+            //printing a separator of 2 spaces
             printf("  ");
             count2 = count1;
-            //counting and printing "#"" again
+            //counting and printing "#", again
             while (count2 != 0)
             {
                 printf("#");
                 count2--;
             }
-            //printing a new line and add 1 to the variable "count1"
+            //printing a new line and adding +1 to the variable "count1"
             printf("\n");
             count1++;
             count2 = count1;
         }
     }
-    //if user input is not between 1 and 8, run the programm again
+    //if user's input is not between 1 and 8, run the program again, until this little prick will put the correct number. 
     else
     {
         main();
