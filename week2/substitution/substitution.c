@@ -70,7 +70,7 @@ int main(int argc, char **argv)
             error_message();
             return (1);
         }
-        //we check of all the characters are unique, if not, the program shows an error and returns 1.
+        //we check if all the characters are unique, if not, the program shows an error and returns 1.
         if (if_unique(argv[1]) == 1)
         {
             error_message();
@@ -95,7 +95,7 @@ int main(int argc, char **argv)
             {
                 argument[i2] -= 32;
             }
-            //we assign the array the same valas the character.
+            //we assign the array the same value as the character.
             unique[i] = argument[i2];
             i++;
             i2++;
