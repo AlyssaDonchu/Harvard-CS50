@@ -53,7 +53,7 @@ int error_message()
 int main(int argc, char **argv)
 {
     //if there's no argument (the first argument is the name of the file), the program
-    //will shows an error message and will return 1.
+    //will show an error message and will return 1.
     if (argc == 1)
     {
         error_message();
